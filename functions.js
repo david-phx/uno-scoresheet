@@ -85,13 +85,13 @@ function translate(lang) {
     const newGame = {
         'en': 'New Game',
         'ru': 'Новая игра',
-        'he': 'משחק חדש'
+        'am': 'Նոր խաղ'
     };
 
     const playerDefault = {
         'en': 'Player',
         'ru': 'Игрок',
-        'he': 'שחקן'
+        'am': 'Խաղացող'
     };
 
     localStorage.setItem("lang", JSON.stringify(lang));
